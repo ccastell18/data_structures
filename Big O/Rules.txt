@@ -1,0 +1,7 @@
+Rule #1 Worst Case scenario
+
+assume it is an O(n) case. The item being looked for can be first, or last. Will run until it finds specific target
+
+Rule #2 Remove Constants
+
+drop the constants because the constants will still move in a linear motion O(n)
