@@ -5,3 +5,34 @@ assume it is an O(n) case. The item being looked for can be first, or last. Will
 Rule #2 Remove Constants
 
 drop the constants because the constants will still move in a linear motion O(n)
+
+Rule #3 Different terms for inputs
+
+don't combine all information into one answer. They could be two different sources.
+Different arrays, one after another, you add. O(a+b)
+If arrays are nested you multiply, O(a*b)
+
+Rule #4 Drop Non Dominants
+
+the operation that scales the most will be take focus.
+
+
+Big O Cheat Sheet
+-Big O-
+-O(1) Constants - no loops
+-O(log N) logarithmic- usually searching algorithms have log (n) if they are sorted (Binary Search). not hash marked.
+-O(n) Linear - for loops while loops
+-O(n*log(n)) Log linear- Sorting operations usually
+-O(n^2) Quadratic- every element in a collection needs to be compared to every other element. Two nested loops.
+-O(2^N) Exponential- recursive algorithms that solve problem of size N 
+-O(n!) -you are adding a loop for every element.
+
+**iterating through half a collection is still O(n)
+**Two separate collections: O(a+b)
+
+-What can cause time in a function?
+Operations(+,-,*,/)
+Comparisons(<,>,==)
+Looping (for, while)
+Outside Function call (function())
+
