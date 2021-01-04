@@ -1,0 +1,20 @@
+-Data structure is a collection of values.
+-Algorithms are steps or processes we put in place to manipulate the collections
+
+-Data structures are basically different containers. Each have their own use.
+
+Data structures
+-arrays
+-stacks
+-queues
+-linked lists
+-trees
+-tries
+-graphs
+-hash tables
+
+Algorithms
+-sorting
+-dynamic programming
+-BFS + DFS (Searching)
+-Recursion
