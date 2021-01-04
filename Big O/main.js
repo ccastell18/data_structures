@@ -11,7 +11,7 @@ const findNemo = (array) =>{
 }
 
 findNemo(large); 
-//O(n) --> Linear Time
+// O(n) --> Linear Time
 //number of number of operations increases with input #.
 
 const boxes = [0,1,2,3,4,5];
@@ -58,3 +58,26 @@ function printAllNumbersThenAllPairSums(numbers){
 //but we call it O(n^2) because as the input increases, n^2 is more important the n.
 //Scale is the most important part of simplification.
 
+//O(n!)
+//probably never use. adds a nested loop for every input. 
+
+
+//Space Complexity
+function boooo(n){
+  for(let i = 0; i < n.length; i++){
+    console.log('boooo!')
+  }
+}
+
+boooo([1,2,3,4,5])
+//We are not adding much space complexity.  Just assigning the iterable a variable. So this would be O(1)
+
+function arrayOfHiNTimes(n){
+  let hiArray = []
+  for(i=0; i<n; i++){
+    hiArray[i] = 'hi'
+  }
+  return hiArray
+}
+let hi = arrayOfHiNTimes(6)
+console.log(hi)//O(n) because we are adding data structure and adding memory
