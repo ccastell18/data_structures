@@ -1,0 +1,8 @@
+Arrays
+
+Two different types of arrays 
+Static and Dynamic
+
+Static array - know how big the array will be. Unchanging.
+
+Dynamic array - allows us to copy and change array. Moves array to new location in memory.
