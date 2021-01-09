@@ -13,3 +13,22 @@ Hash Collision is when 2 keys try to save at the same address
 Hash Tables vs Arrays
 
 -Arrays are ordered. Hash Tables are not.
+
+Pros vs Cons
+Pros:
+-Fast Lookups
+-Fast inserts
+-flexible keys
+
+Cons:
+-unordered
+-slow key iteration
+
+Sum up:
+-Hash Tables are usually the answer to improve Time complexity.
+-If it's a sorted array, use Binary tree to achieve O(log N). Divide and Conquer- divide data set into smaller sets
+-Try sorting input
+-Hash tables and precomputed information, sorted,  are some of the best ways to optimize your code.
+-Look at the Time vs Space tradeoff. Sometimes sorting extra state in memory can help the Runtime.
+-If the interviewer is giving you advice/tips/hints. Follow them.
+-Space time tradeoffs: Hash Tables usually solve this a lot of the times.  You use more space, but you can get a time

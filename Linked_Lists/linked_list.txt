@@ -1,0 +1,23 @@
+Linked lists
+
+Singly and Doubly
+
+Linked List- A set and node with two elements. Value and pointer to the next code.
+
+-first node -head
+-last node -tail
+- after the tail is null
+
+Why Linked Lists?
+-Loose setting. resets information with addition or deletion.
+-Traversal- like iterating an array.
+-slower than array. Inserts are easier.
+-no shifting or unshifting
+-scatters info like hash tables, but there is more order.
+-each node points to the next.
+
+prepend - add to beginning O(1)
+append  - add to end O(1)
+lookup  - O(n)
+insert  - O(n)
+delete  - O(n)
