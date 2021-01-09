@@ -1,0 +1,11 @@
+Hash Tables
+Keys are a way to find items in memory.
+A Hash Function decides where key and value are placed.
+
+idempotent - Same output from the same input.
+
+Hash function takes a hash and turns it into an index or memory address.
+
+insert, lookup, delete, and search are all O(1)
+
+Hash Collision is when 2 keys try to save at the same address

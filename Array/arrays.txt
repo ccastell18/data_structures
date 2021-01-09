@@ -6,3 +6,14 @@ Static and Dynamic
 Static array - know how big the array will be. Unchanging.
 
 Dynamic array - allows us to copy and change array. Moves array to new location in memory.
+
+Pros and Cons
+Pros:
+-Fast lookups
+-Fast push/pop
+-Ordered
+
+Cons:
+-Slow inserts
+-Slow deletes
+-Fixed sizes (if static)
