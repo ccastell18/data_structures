@@ -1,26 +1,3 @@
-//Linked Lists
-
-const obj = {a: true};
-const obj2 = { obj1} //example of a pointer. Point to same location in memory.
-
-//example of linked list
-//10 -> 5 -> 16
-
-// let myLinkedList = {
-//   head: {
-//     value:10,
-//     //next is the pointer
-//     next:{
-//       value:5,
-//       next:{
-//         value: 16,
-//         next: null
-//       }
-//     }
-//   }
-// }
-
-//cleaned up. DRY
 class Node {
   constructor(value){
     this.value = value, 
@@ -104,13 +81,21 @@ class LinkedList {
     this.length--;
     return this.printList()
   }
+  reverse(){
+    if(!this.head.next){
+      return this.head
+    }
+    let first = this.head
+    this.tail = this.head
+    let second = first.next
+    while(second){
+      const temp = second.next;
+      second.next = first
+      first = second;
+      second= temp
+    }
+    this.head.next = null
+    this.head = first
+    return this
+  }
 }
-
-
-
-
-const myLinkedList = new LinkedList(10)
-myLinkedList.append(5)
-myLinkedList.append(16)
-myLinkedList.insert(200, 99)
-myLinkedList.printList()

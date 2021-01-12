@@ -28,3 +28,12 @@ Doubly Linked Lists
 -has an extra piece of data that points to the value of the first one. 
 -The list can be read backwards.
 - can work faster, but uses more memory.
+
+When to use Singly?
+-less memory
+-faster to insert or delete
+-can't traverse in reverse
+
+Why use doubly?
+-more memory
+-can be read both directions
