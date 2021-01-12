@@ -24,3 +24,7 @@ delete  - O(n)
 
 Pointer references another place in memory or another object or another node
 
+Doubly Linked Lists
+-has an extra piece of data that points to the value of the first one. 
+-The list can be read backwards.
+- can work faster, but uses more memory.
