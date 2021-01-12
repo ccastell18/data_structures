@@ -1,0 +1,34 @@
+Stacks & Queues
+
+-stacks and queues are linear, sequentially
+
+Stacks
+-LIFO = Last In First Out
+
+Big O
+lookup O(n)
+pop    O(1)
+push   O(1)
+peek   O(1)
+
+Queues
+-FIFO = First In First Out
+
+Big O
+lookup  O(n)
+enqueue O(1)
+dequeue O(1)
+peek    O(1)
+
+- Can be built with arrays and Linked Lists
+
+-Arrays
+-cache locality, next to each other
+-static or dynamic memory which will double up on memory
+-Never build a queue with an array, would have to shift indexes with each one.
+
+-Linked List
+-scattered all over
+-extra memory because of pointers
+-more dynamic memory
+-good for queues because we reference the head and tail.
