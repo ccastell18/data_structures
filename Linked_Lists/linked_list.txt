@@ -16,8 +16,11 @@ Why Linked Lists?
 -scatters info like hash tables, but there is more order.
 -each node points to the next.
 
-prepend - add to beginning O(1)
+pre pend - add to beginning O(1)
 append  - add to end O(1)
 lookup  - O(n)
 insert  - O(n)
 delete  - O(n)
+
+Pointer references another place in memory or another object or another node
+
