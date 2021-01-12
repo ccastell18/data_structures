@@ -32,3 +32,5 @@ peek    O(1)
 -extra memory because of pointers
 -more dynamic memory
 -good for queues because we reference the head and tail.
+
+Queue using Stacks is possible
