@@ -1,0 +1,43 @@
+Tree Data
+
+-Root is the top of the tree
+-parent nodes have nodes branching off of it.
+-child is branched off of the parent. Only descends from one parent
+-Leaf are the final children of the tree
+-sub trees are trees within trees.
+
+    p
+  / | \
+ c  c  c
+    /\
+   l  l
+  (subtree)
+
+Binary Tree
+-each node can only have 0,1,2 nodes
+-each node is a state
+-perfect binary tree = each parent has 2 nodes
+-full binary tree= each parent has two nodes but is not equal in length
+
+Big O
+lookup O(log N)
+insert O(log N)
+delete O(log N)
+
+O(log N)
+-level 0: 2^0 = 1
+-level 1: 2^1 = 2
+-level 2: 2^2 = 4
+etc
+
+# of nodes = 2 ^ h -1
+log nodes = height
+
+Binary Search Tree
+-child node on the right must be larger than the previous node
+- left decreases
+-can only have 2 trees
+
+Balance vs Unbalanced
+-balanced has equal node dispersal
+-unbalance can keep adding to one side making it a linked list
