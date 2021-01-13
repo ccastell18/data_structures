@@ -41,3 +41,12 @@ Binary Search Tree
 Balance vs Unbalanced
 -balanced has equal node dispersal
 -unbalance can keep adding to one side making it a linked list
+
+Binary Search Trees
+Pros:
+-Better than O(n)
+-Ordered
+-Flexible Size
+
+Cons
+-No O(1) operations
