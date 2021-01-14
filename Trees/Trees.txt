@@ -50,3 +50,30 @@ Pros:
 
 Cons
 -No O(1) operations
+
+AVL
+-rearranges added nodes so the tree has the same number of level to be even
+
+Red/Black Tree
+-Will change the root node to make sure it is even. If 9 was the root then 10 and 11 were added, The tree would rearrange so 10 was the root now.
+
+Binary Heap
+-number on the root is higher than every child node going down. Left child node can be greater than the right child node, different from a binary tree.  This makes it easier to traverse.
+-also bubbles up to rearrange the values in correct order.
+
+Priority Queues
+-each element has a priority
+-higher priorities are more important than lower priorities.
+
+Binary Heaps Pro and Cons
+Pro:
+-Better than O(n)
+-Priority
+-Flexible Size
+-Fast Insert
+
+Con:
+-Slow lookup
+
+Trie
+-looks to see if words are within the tree from the letters.
