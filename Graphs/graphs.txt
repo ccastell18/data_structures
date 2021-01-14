@@ -21,3 +21,7 @@ Cyclic
 
 Acyclic
 - move from node to node and doesn't return to the original node.
+
+Pros vs Cons
+Pro: Relationships
+Con: Scaling is hard
