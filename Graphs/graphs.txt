@@ -1,0 +1,23 @@
+Graph
+
+-each item in a node is a node or vertex
+-connected with edges
+-use trees and linked lists
+
+Directed Graph
+-can only go in certain directions
+
+Undirected Graph
+-flow of information between nodes can go both ways.
+
+Unweighted graph
+-all info is contained in the nodes, which are directed
+
+Weighted graph
+-the info is in the nodes and on the edges (goole maps)
+
+Cyclic
+-can move from node to node and return to the original node
+
+Acyclic
+- move from node to node and doesn't return to the original node.
