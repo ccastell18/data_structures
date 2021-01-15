@@ -15,3 +15,20 @@ Base Case
 1. Identify the Base Case
 2. Identify the Recursive Case
 3. get closer and closer and return when needed. You usually have 2 returns.
+
+Recursive vs Iterative
+-Anything done recursively, can be done iteratively
+-Recursion can be DRY, but makes it take longer
+-good for binary trees.
+Pro:
+-DRY
+-Readability
+
+Con: 
+-Large Stack
+
+When to use:
+-Every time you are using a tree or converting something into a tree, consider recursion.
+1.Divided into a number of sub problems that are smaller instances of the same problem.
+2.Each instance of the sub problem is identical in nature.
+3. The solutions of each sub problem can be combined to solve the problem at hand
