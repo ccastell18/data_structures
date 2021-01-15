@@ -1,0 +1,17 @@
+Recursion
+
+-Recursion is more of a concept.
+-Recursion refers to itself inside of the function
+
+Stack Overflow
+-when the calls within the function are too much
+-basically each call of the function adds to the Stack and nothing is taken off of the Stack and it overflows.
+-recursion takes up memory.
+
+Base Case
+-An added code that stops the recursion after a certain amount of calls.
+
+3 Rules for Recursion
+1. Identify the Base Case
+2. Identify the Recursive Case
+3. get closer and closer and return when needed. You usually have 2 returns.
