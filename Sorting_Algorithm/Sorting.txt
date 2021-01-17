@@ -1,0 +1,3 @@
+Sorting
+
+Not all sorting is the same. Different browsers can sort in different manners. Using .sort() will not always put numbers in order. It converts to strings and reads like Char codes.
