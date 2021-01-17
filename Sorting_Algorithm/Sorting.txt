@@ -13,4 +13,8 @@ it would start with 8 and 3.  The lower of the two numbers would be moved to the
 Selection Sort
 -Scans data to find the smallest element and switches it to the first spot and repeats through the elements.O(n^2)
 
+Insertion Sort
+-Sorts the list by iterating the elements. It compares the element to the previous element and puts them in order, inserting them in the right positions.
+
+
 Complex Sorts
