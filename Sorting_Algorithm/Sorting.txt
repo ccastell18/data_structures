@@ -10,4 +10,7 @@ Elementary Sorts
 Start at the beginning and compare two numbers at a time.   [8,3,5,9]
 it would start with 8 and 3.  The lower of the two numbers would be moved to the left, then move on to the next two numbers which would be 8 and 5. It repeats until its arranged lowest to highest. Simple but inefficient. O(n^2)
 
+Selection Sort
+-Scans data to find the smallest element and switches it to the first spot and repeats through the elements.O(n^2)
+
 Complex Sorts
