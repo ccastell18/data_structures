@@ -34,3 +34,15 @@ Quick Sort ( usually best sorting option)
 -smaller lists use pivot until sorted
 -pivot is picking a number and sort all numbers before and numbers after on both sides. 
 -then pivots again on the two new lists. And repeated until everything is sorted.
+
+
+When to use sorting algorithm?
+Insertion - input small or mostly sorted data
+Bubble - never
+Selection - never
+Merge sort - divide and conquer. no worst case scenario. uses lots of space complexity though
+Quick sort- better than merge sort, but terrible if it picks the wrong pivot number. Less space complexity.
+
+Non Comparison Sorts
+- Counting Sort or Radix Sort
+-only works with numbers in a certain range.
