@@ -17,4 +17,14 @@ Insertion Sort
 -Sorts the list by iterating the elements. It compares the element to the previous element and puts them in order, inserting them in the right positions.
 
 
-Complex Sorts
+Complex Sorts(Divide and Conquer)
+- implements recursion
+- Big O value of O(n log n)
+-High Time Complexity, slow Space Complexity
+
+Merge Sort
+-takes an array and divides and divides until each element is a single element.
+-Then compares two elements next to each other like a tree sort.  
+- compares two at a time until they are all ordered. Then repeat with neighbor elements.
+-stable which will keep the original order.
+- 
