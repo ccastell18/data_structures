@@ -82,6 +82,7 @@ function merge(left, right){
   const result = [];
   let leftIndex = 0;
   let rightIndex =0;
+  //compares numbers and compares them and sorts from a single element through the whole list.
   while(leftIndex < left.length && rightIndex < right.length){
     if(left[leftIndex] < right[rightIndex]){
       result.push(left[leftIndex]);
@@ -95,3 +96,40 @@ function merge(left, right){
 }
 
 const answer = mergeSort(numbers)
+
+
+//Quick Sort
+
+function quickSort(array, left, right){
+  const len = array.length;
+  let pivot;
+  let partitionIndex;
+  
+  if(left< right){
+    pivot = right;
+    partitionIndex = partition(array, pivot, left, right);
+  }
+  return array
+}
+
+function partition(array, pivot, left, right){
+  let pivotValue = array[pivot]
+  let partitionIndex = left;
+
+  for(let i = left; i < right; i++){
+    if(array[i] < pivotValue){
+      swap(array, i , partitionValue);
+      partitionIndex++
+    }
+  }
+  swap(array, right, partitionIndex);
+  return partitionIndex;
+}
+
+function swap(){
+  var temp = array[firstIndex];
+  array[firstIndex] = array[secondIndex] 
+  array[secondIndex] = temp;
+}
+quickSort(numbers, 0, numbers - 1)
+

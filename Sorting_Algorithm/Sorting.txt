@@ -27,4 +27,10 @@ Merge Sort
 -Then compares two elements next to each other like a tree sort.  
 - compares two at a time until they are all ordered. Then repeat with neighbor elements.
 -stable which will keep the original order.
-- 
+
+Quick Sort ( usually best sorting option)
+-uses a pivoting technique
+-breaks main list into smaller lists
+-smaller lists use pivot until sorted
+-pivot is picking a number and sort all numbers before and numbers after on both sides. 
+-then pivots again on the two new lists. And repeated until everything is sorted.
