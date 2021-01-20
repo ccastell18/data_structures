@@ -1,0 +1,10 @@
+Linear Search
+-sequentially checks elements in a list until it finds the element it is looking for or checks all elements.
+
+Binary Search
+-if data is sorted
+-discards half of the list.
+-finds a pivot point and checks the element. It discards the half of the list it knows the element is not included.
+- repeats the process until the element is narrowed down. 
+-Faster than going through each element one by one.
+-similar to a binary tree.
