@@ -8,3 +8,15 @@ Binary Search
 - repeats the process until the element is narrowed down. 
 -Faster than going through each element one by one.
 -similar to a binary tree.
+
+Depth First Search(DFS)  O(n)
+-Traverses one side of a binary tree. Checks each element and the child nodes. 
+-If the left child node is not the element, the search moves back to the parent node and checks the right child node.
+-Once it has reached the bottom of the half of the binary tree, it goes to the parent node of the tree and moves down the other side repeating the actions.
+-lower memory because it doesn't keep nodes in memory like BFS.
+
+Breadth First Search(BFS) O(n)
+- Start left to right traversing each level of a binary tree until the element is found or the tree ends
+- takes extra memory because it tracks the child nodes
+
+BFS vs DFS
