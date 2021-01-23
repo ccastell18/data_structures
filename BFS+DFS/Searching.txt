@@ -58,3 +58,9 @@ Types of DFS?
 inorder- everything in number order
 preorder - root, left child , right child
 postorder - left child, right child, root
+
+Graph Traversals
+-BFS finds the closest nodes
+-DFS finds the bottom of the maze and works its way out
+-DFS can skip unnecessary nodes to find the needed nodes.
+
