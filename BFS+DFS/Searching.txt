@@ -20,3 +20,36 @@ Breadth First Search(BFS) O(n)
 - takes extra memory because it tracks the child nodes
 
 BFS vs DFS
+-Both traversals are O(n)
+
+BFS
+-Good if you know the idea of the location of the element
+Pro:
+Shortest Path
+Closer Nodes
+Con: More Memory
+
+DFS
+Pro:
+Less Memory
+Does Path Exist?
+Con: Can Get Slow
+
+
+If you know a solution is not far from the root of the tree?
+BFS
+
+If the tree is very deep and solutions are rare?
+BFS(DFS will take a long time)
+
+If the tree is very wide?
+DFS(BFS will need too much memory)
+
+If solutions are frequent but located deep in the tree?
+DFS
+
+determining whether a path exists between two nodes?
+DFS- what it is built for
+
+Finding The Shortest path?
+BFS
