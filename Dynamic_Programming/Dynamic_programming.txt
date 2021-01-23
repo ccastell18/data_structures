@@ -1,0 +1,10 @@
+Dynamic Programming
+
+-Just a fancy way of using caching
+-solves small problems and saves the info
+
+Memoization
+
+-caching- saving info that will be necessary for programs.
+-memoization caches the return value of a function based on the parameter.If the parameter does not change, it will return the memoized version(cached) to speed the program.
+-remember the solution to a solve problem
