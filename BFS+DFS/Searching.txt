@@ -53,3 +53,8 @@ DFS- what it is built for
 
 Finding The Shortest path?
 BFS
+
+Types of DFS?
+inorder- everything in number order
+preorder - root, left child , right child
+postorder - left child, right child, root
