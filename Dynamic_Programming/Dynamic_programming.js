@@ -10,13 +10,26 @@ addTo80(5)
 //the computer would rerun this entire function over and over.
 
 //memoizedAddTo80(n) is now cached and easy access to answer
-let cache = {5: 85}
+//let cache = {}
 function memoizedAddTo80(){
-  if(n in cache){
-    return cache[n]
-  }else{
-    //caches memoizedAddTo80(n) 
-    cache[n] = n + 80
-    return cache[n]
+  let cache = {}
+  //this is a closure
+  return function(n){
+    if(n in cache){
+      return cache[n]
+    }else{
+      //caches memoizedAddTo80(n) 
+      cache[n] = n + 80
+      return cache[n]
+    }
   }
+  
+}
+
+//very inefficient O(2^n)
+function fibonacci(n){
+  if(n < 2){
+    return n
+  }
+  return fibonacci(n-1) + fibonacci(n-2)
 }
