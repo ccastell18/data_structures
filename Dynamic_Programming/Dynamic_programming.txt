@@ -8,3 +8,13 @@ Memoization
 -caching- saving info that will be necessary for programs.
 -memoization caches the return value of a function based on the parameter.If the parameter does not change, it will return the memoized version(cached) to speed the program.
 -remember the solution to a solve problem
+
+-running a fibonacci regularly, the calculations overlap while searching the binary trees.
+-memoized version caches all numbers so it is easy to find numbers already traversed.
+
+Questions for Dynamic Programming
+1. Can it be divided into subproblem?
+2. Recursive Solution
+3. Are there repetitive sub problems?
+4. Memoize Sub Problems
+5. Demand a raise from your boss
