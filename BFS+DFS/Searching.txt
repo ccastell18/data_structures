@@ -64,3 +64,5 @@ Graph Traversals
 -DFS finds the bottom of the maze and works its way out
 -DFS can skip unnecessary nodes to find the needed nodes.
 
+Dijkstra and Bellman-Ford Algorithms
+-Finds the shorted path on a weighted path.
